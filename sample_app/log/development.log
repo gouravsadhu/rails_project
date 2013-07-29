@@ -732,3 +732,1653 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-14 11:31:3
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 11:31:39 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 12:33:18 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/railties-4.0.0.rc2/lib/rails/templates/rails/welcome/index.html.erb (10.4ms)
+Completed 200 OK in 232ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-14 12:33:26 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 130ms (Views: 128.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 12:33:26 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-14 12:33:26 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 12:33:26 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 12:33:27 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-14 12:33:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-14 12:33:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 12:33:27 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-14 12:39:45 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/railties-4.0.0.rc2/lib/rails/templates/rails/welcome/index.html.erb (10.1ms)
+Completed 200 OK in 170ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-14 12:39:52 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 223ms (Views: 221.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-14 12:39:52 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-14 12:39:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-14 12:39:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-14 12:39:53 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-14 12:39:53 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-14 12:39:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-14 12:39:53 +0530
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2013-07-14 12:39:53 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (66.6ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (134.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 23:05:04 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/railties-4.0.0.rc2/lib/rails/templates/rails/welcome/index.html.erb (6.8ms)
+Completed 200 OK in 158ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-16 23:05:13 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 338ms (Views: 336.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 23:05:13 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-16 23:05:13 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 23:05:13 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 23:05:13 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 23:05:13 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-16 23:05:14 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 23:05:14 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-16 23:05:14 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-16 23:43:36 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 5350ms (Views: 5270.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 23:43:42 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-16 23:43:43 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-16 23:45:27 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3342ms (Views: 3340.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-16 23:45:31 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-16 23:48:28 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3302ms (Views: 3300.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-16 23:48:31 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-17 00:02:13 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 154ms
+
+ActionView::Template::Error (Missing partial layouts/shim with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/media/FA28F2F428F2AEAF/Education/pre-train/rails/rails_projects/c_5/sample_app/app/views"
+):
+     6:                                            "data-turbolinks-track" => true %>
+     7:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+     8:     <%= csrf_meta_tags %>
+     9:     <%= render 'layouts/shim' %>
+    10:     <!--[if lt IE 9]>
+    11:     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    12:     <![endif]-->
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___962170620__629526718'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.8ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 115ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-17 00:07:26 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-17 00:09:56 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 3289ms (Views: 3288.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-17 00:10:00 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-17 00:21:18 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3755ms (Views: 3754.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-17 00:21:22 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-17 00:23:45 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3273ms (Views: 3272.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-17 00:23:49 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 18:52:55 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/railties-4.0.0.rc2/lib/rails/templates/rails/welcome/index.html.erb (7.1ms)
+Completed 200 OK in 169ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (26.6ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 595ms (Views: 593.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 18:53:38 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-28 18:53:39 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 20:51:58 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (51.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 580ms (Views: 507.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 20:52:00 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 20:52:07 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 201ms (Views: 199.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 20:52:09 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 134ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-07-28 20:52:11 +0530
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 139ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 20:52:13 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 180ms (Views: 178.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 20:52:15 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 180ms (Views: 178.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 20:52:17 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 179ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 20:52:26 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (37.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 206ms (Views: 205.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 20:59:21 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 184ms (Views: 182.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 20:59:24 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 154ms (Views: 152.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 20:59:25 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 177ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 20:59:25 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 155ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 21:01:13 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 171ms (Views: 170.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 21:01:27 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 172ms (Views: 170.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 21:01:33 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 166ms (Views: 164.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 137ms (Views: 133.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:27 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 21:03:49 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 21:03:50 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 152ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 21:13:08 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 21:13:10 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 179ms (Views: 177.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-28 21:13:10 +0530
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 21:13:14 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 142ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-07-28 21:13:17 +0530
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 187ms (Views: 184.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 21:13:18 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 145ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 21:13:25 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 160ms (Views: 158.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 21:13:31 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 182ms (Views: 181.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 21:25:38 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (19.2ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 1213ms (Views: 1155.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 21:25:40 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 21:25:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 21:25:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 21:25:40 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 21:25:40 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-28 21:25:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 21:25:41 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 21:25:41 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-28 21:25:41 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 21:25:41 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-28 21:25:41 +0530
+
+
+Started GET "/users" for 127.0.0.1 at 2013-07-28 21:25:45 +0530
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0.rc2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0.rc2) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0.rc2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0.rc2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0.rc2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0.rc2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (67.9ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (96.9ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 21:28:19 +0530
+  [1m[36m (548.2ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (31.6ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (171.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (245.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (56.0ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (13.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (74.3ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (100.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (225.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (38.9ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (58.6ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.4ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (98.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (178.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (38.5ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (93.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (222.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 21:42:53 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 367ms (Views: 302.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-28 21:42:55 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 21:43:05 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 190ms (Views: 188.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 21:43:07 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 181ms (Views: 180.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-07-28 21:43:09 +0530
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 160ms (Views: 158.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 21:43:11 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 175ms (Views: 173.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 21:43:12 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 163ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-07-28 21:44:08 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 177ms (Views: 175.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 108ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-28 22:43:53 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 22:43:55 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 140ms (Views: 139.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 22:43:56 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 148ms (Views: 147.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 22:43:59 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-07-28 22:44:00 +0530
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 162ms (Views: 161.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 22:44:02 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 150ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-07-28 22:44:04 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 164ms (Views: 162.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 22:44:06 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 142ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 22:44:07 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 22:44:10 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 156ms (Views: 154.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 22:44:13 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 141ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (70.8ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (104.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (222.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (65.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (37.4ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (117.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (222.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (65.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (44.1ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (101.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (65.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (29.1ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (116.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (213.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (43.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (60.9ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (72.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (200.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (36.9ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (100.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (189.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (61.2ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.4ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (103.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (211.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (53.8ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.4ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (93.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (222.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (43.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (31.1ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (85.8ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (234.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (43.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (47.4ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (83.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (178.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (35.8ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (84.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (189.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (46.2ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (96.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (178.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (54.2ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (84.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (178.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (44.2ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (108.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (189.7ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.0ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (43.6ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.4ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (83.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (178.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (34.1ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (79.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (211.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (32.4ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (84.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (211.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.2ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (44.5ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (93.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (234.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 23:23:41 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (48.1ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 624ms (Views: 547.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-28 23:23:43 +0530
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-07-28 23:23:46 +0530
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-28 23:23:49 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 118ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 23:23:50 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 171ms (Views: 169.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-28 23:23:52 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 150ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-07-28 23:23:54 +0530
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 146ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 23:24:01 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (43.8ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (104.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (300.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (75.9ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (45.5ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (89.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (202.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (26.5ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (96.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (190.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (53.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (69.1ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (95.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (200.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (32.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (51.3ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (95.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (202.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (43.1ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 00:06:17 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_shim.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 468ms (Views: 398.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 00:06:18 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-29 00:06:18 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-29 00:06:19 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 00:06:33 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 180ms (Views: 178.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-29 00:06:36 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 175ms (Views: 173.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-29 00:06:39 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 175ms (Views: 173.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-07-29 00:06:42 +0530
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 00:06:49 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 124ms (Views: 123.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (63.5ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (100.5ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (222.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (32.6ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (86.8ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (168.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (54.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('0')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 10:32:24 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (31.4ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 799ms (Views: 698.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-29 10:32:27 +0530
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-29 10:32:27 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-07-29 10:32:27 +0530
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-29 10:32:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 +0530
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-29 10:32:28 +0530
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-29 10:32:28 +0530
+
+
+Started GET "/help" for 127.0.0.1 at 2013-07-29 10:32:40 +0530
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 108ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-07-29 10:32:43 +0530
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 188ms (Views: 186.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-07-29 10:32:45 +0530
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 178ms (Views: 176.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-29 10:32:48 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 164ms (Views: 163.2ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (22.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+Mysql2::Error: Table 'sample_app_development.users' doesn't exist: SELECT `users`.* FROM `users`
+  [1m[36mActiveRecord::SchemaMigration Load (32.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130729051720)
+  [1m[35m (175.7ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130729051720')
+  [1m[36m (46.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (56.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `name`, `updated_at`) VALUES ('2013-07-29 05:41:14', 'mhartl@example.com', 'Michael Hartl', '2013-07-29 05:41:14')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`created_at`, `email`, `name`, `updated_at`) VALUES ('2013-07-29 05:44:48', 'another@example.org', 'A Nother', '2013-07-29 05:44:48')
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `name`, `updated_at`) VALUES ('2013-07-29 05:45:24', 'foo@bar.com', 'Foo', '2013-07-29 05:45:24')[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (70.1ms)[0m  DELETE FROM `users` WHERE `users`.`id` = 3
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users`
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (11.5ms)[0m  UPDATE `users` SET `email` = 'foo@bar.com', `updated_at` = '2013-07-29 05:54:47' WHERE `users`.`id` = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE `users` SET `name` = 'The Dude', `email` = 'dude@abides.org', `updated_at` = '2013-07-29 05:55:59' WHERE `users`.`id` = 1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (101.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (192.8ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (17.3ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (135.4ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (94.2ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (200.7ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) [0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (42.0ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20130729051720')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsersEmail (20130729065058)
+  [1m[35m (232.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130729065058')
+  [1m[36m (48.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (14.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddPasswordDigestToUsers (20130729081010)
+  [1m[35m (338.3ms)[0m  ALTER TABLE `users` ADD `password_digest` varchar(255)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (12.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130729081010')
+  [1m[36m (66.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (161.0ms)[0m  [1mDROP DATABASE IF EXISTS `sample_app_test`[0m
+  [1m[35m (0.5ms)[0m  CREATE DATABASE `sample_app_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (98.1ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime, `updated_at` datetime, `password_digest` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (155.1ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` USING btree ON `users` (`email`) 
+  [1m[36m (100.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (233.7ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (13.2ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (41.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20130729081010')
+  [1m[36m (44.1ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20130729051720')[0m
+  [1m[35m (44.0ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20130729065058')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM `users` WHERE `users`.`email` = 'mhartl@example.com' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `name`, `password_digest`, `updated_at`) VALUES ('2013-07-29 14:43:48', 'mhartl@example.com', 'Michael Hartl', '$2a$10$CVNcdoa7ZC4npf6S9EiF6edOhYlM..Mxy8ywVaUU4o7pDgkBXYHFK', '2013-07-29 14:43:48')[0m
+  [1m[35m (59.2ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'mhartl@example.com' LIMIT 1
